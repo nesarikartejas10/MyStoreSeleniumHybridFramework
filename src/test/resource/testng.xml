@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyStore Automation Suite">
+	<listeners>
+		<listener class-name="com.mystore.qa.listeners.MyListener"></listener>
+	</listeners>
+	<test name="MyStore Tests">
+		<classes>
+			<class name="com.mystore.qa.tests.RegisterTest" />
+			<class name="com.mystore.qa.tests.LogInTest" />
+			<class name="com.mystore.qa.tests.SearchTest" />
+		</classes>
+	</test> <!--
+	MyStore Tests -->
+</suite> <!--
+MyStore Automation Suite -->
